@@ -1,0 +1,54 @@
+ For my assignment I had to evaluate some code given to me and fix the output. The following is the code I was given to run in RStudio:
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+myMean <- function(assignment2) {
+
+  return(sum(assignment) / length(someData))
+
+}
+
+myMean(assignment2)
+
+However, when this code was run, the following was the output error:\
+
+Error in myMean(assignment2) : object 'assignment' not found
+
+This error pops up because there is nothing in the code labeled "assignment". However, the vector is listed/named "assignment2". However, if you correct the naming error and run the following code:
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+myMean <- function(assignment2) {
+
+  return(sum(assignment) / length(someData))
+
+}
+
+myMean(assignment2)
+
+You will recieve the following error:
+
+Error in myMean(assignment2) : object 'someData' not found
+
+This code means nothing has been defined as "someData" therefore the code doens't know what you are trying to reference.
+
+A simple way to fix this code is to simply run: mean(assignment2). However, if we want it to be labeled as "myMean" we could write the following code:
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+
+
+
+myMean <- mean(assignment2)
+
+
+
+myMean
+
+The following is the output we would recieve:
+
+> myMean
+[1] 19.25
+
+This is a sweet and simple assignment that teaches us to make sure we're keeping our labels/names uniform, otherwise they can mess up an entire program!
+
+The following is a link to my blog post: https://usfcarlys.blogspot.com/2026/01/module-2-rstudio.html
