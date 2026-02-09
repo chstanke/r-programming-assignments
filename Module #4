@@ -1,0 +1,19 @@
+# Frequency of hospital visits
+Freq <- c(0.6, 0.3, 0.4, 0.4, 0.2, 0.6, 0.3, 0.4, 0.9, 0.2)
+
+# Blood pressure values
+BP <- c(103, 87, 32, 42, 59, 109, 78, 205, 135, 176)
+
+# First doctor assessment (bad = 1, good = 0)
+First <- c(1, 1, 1, 1, 0, 0, 0, 0, NA, 1)
+
+# Second doctor assessment (low = 0, high = 1)
+Second <- c(0, 0, 1, 1, 0, 0, 1, 1, 1, 1)
+
+# Final decision (low = 0, high = 1)
+FinalDecision <- c(0, 1, 0, 1, 0, 1, 0, 1, 1, 1)
+
+boxplot(BP ~ FinalDecision,names = c("Low Priority", "High Priority"),main = "Blood Pressure by Final Decision",ylab = "Blood Pressure",xlab = "Final Decision")
+
+hist(BP,main = "Histogram of Patient Blood Pressure",xlab = "Blood Pressure",breaks = 6)
+# Blog post link: https://usfcarlys.blogspot.com/2026/02/module-4-programming-structure.html
