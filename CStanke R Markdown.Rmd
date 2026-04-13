@@ -1,0 +1,59 @@
+---
+title: "My R Markdown Primer"
+author: "Carlene Stanke"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Introduction
+
+R Markdown is a powerful tool that allows users to combine narrative text, code, and output into a single document. It is widely used in data science because it supports reproducibility, meaning others can run the same code and obtain the same results. By integrating Markdown formatting, R code chunks, and LaTeX math, R Markdown provides a flexible and efficient way to present analyses.
+
+# Narrative Section
+
+One of the biggest advantages of R Markdown is its ability to seamlessly blend explanation and computation. Instead of writing code separately and copying results into a report, everything exists in one place. This reduces errors and improves clarity. It also makes collaboration easier, as others can follow both the logic and the results step by step.
+
+# LaTeX Math
+
+R Markdown supports LaTeX-style math expressions.
+
+Inline example: $\alpha + \beta = \gamma$
+
+Displayed equation:
+
+$$
+E = mc^2
+$$
+
+# Code Chunk 1: Load Data
+
+```{r}
+# Load built-in dataset
+data(mtcars)
+
+# View first few rows
+head(mtcars)
+```
+
+# Code Chunk 2: Summary Statistics
+
+```{r}
+# Summary statistics
+summary(mtcars)
+```
+
+# Code Chunk 3: Simple Plot
+
+```{r}
+# Basic scatter plot
+plot(mtcars$wt, mtcars$mpg,
+     main = "Car Weight vs MPG",
+     xlab = "Weight",
+     ylab = "Miles Per Gallon")
+```
+
+# Conclusion / Reflection
+
+Using R Markdown was a different experience compared to writing a traditional report. Instead of separating code and writing, everything is integrated into one workflow. This makes the process more efficient and reduces the risk of inconsistencies between reported results and actual outputs.
+
+One challenge was learning the syntax for Markdown and remembering how to properly format code chunks. Additionally, ensuring that the document “knits” correctly required some troubleshooting. However, once everything worked, the final output was clean, organized, and professional. Overall, R Markdown is a valuable tool for reproducible research and data analysis.
