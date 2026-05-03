@@ -1,0 +1,11 @@
+Package: gameStatsR
+Type: Package
+Title: Tools for Cleaning and Analyzing Esports Player Data
+Version: 0.0.0.9000
+Author: Carly Stanke
+Maintainer: Carly Stanke <stanke.carlene@gmail.com>
+Description: A lightweight toolkit for cleaning, analyzing, and visualizing esports player data. Designed for team managers and analysts, this package provides functions to process messy player datasets, generate performance summaries, and visualize key metrics for decision-making.
+Depends: R (>= 3.1.2)
+Imports: dplyr, ggplot2
+License: MIT
+Encoding: UTF-8
