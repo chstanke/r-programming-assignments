@@ -1,0 +1,31 @@
+player,game,genre,score,hours_played,date
+alex,valorant,FPS,88,210,2024-01-02
+Jamie,Apex Legends,fps,91,180,01/05/24
+Sam,Fortnite,Battle Royale,85,,2024/02/10
+Jordan,Overwatch 2,FPS,90,160,03-15-2024
+Taylor,Valorant,fps,NA,200,2024-04-01
+Chris,Apex legends,FPS,87,175,2024-04-05
+Morgan,Fortnite,battle royale,92,220,2024-01-20
+Alex,Overwatch 2,FPS,89,150,2024-02-11
+Jamie,Valorant,FPS,93,210,2024/03/01
+Sam,Apex Legends,FPS,,190,2024-03-10
+Jordan,Fortnite,Battle Royale,88,170,2024-03-18
+Taylor,Marvel Rivals,Hero Shooter,91,140,2024-04-02
+Chris,Valorant,FPS,85,200,2024-04-07
+Morgan,Overwatch 2,FPS,90,210,2024-01-25
+alex,Fortnite,battle royale,87,230,2024-02-14
+Jamie,Apex Legends,FPS,92,195,2024-02-20
+Sam,Valorant,FPS,86,180,2024-03-12
+Jordan,Marvel Rivals,Hero shooter,89,,2024-03-20
+Taylor,Fortnite,Battle Royale,90,205,2024-04-03
+Chris,Overwatch 2,FPS,88,175,2024-04-08
+Morgan,Valorant,FPS,94,240,2024-01-28
+Alex,Apex Legends,FPS,90,185,2024-02-16
+Jamie,Fortnite,Battle Royale,,215,2024-02-25
+Sam,Overwatch 2,FPS,87,165,2024-03-14
+Jordan,Valorant,FPS,91,200,2024-03-22
+Taylor,Apex Legends,FPS,88,190,2024-04-04
+Chris,Fortnite,Battle Royale,86,210,2024-04-09
+Morgan,Marvel Rivals,Hero Shooter,93,150,2024-01-30
+Alex,Valorant,FPS,89,220,2024-02-18
+Jamie,Overwatch 2,FPS,90,205,2024-02-27
